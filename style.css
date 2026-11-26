@@ -1,0 +1,88 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0878b9;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 30px;
+}
+
+.menu {
+    display: flex;
+    gap: 35px;
+    padding: 20px 30px;
+    width: max-content;
+}
+
+.group {
+    width: 280px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.tiles {
+    display: grid;
+    grid-template-columns: 130px 130px;
+    grid-auto-rows: 130px;
+    gap: 8px;
+}
+
+.tile {
+    padding: 15px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 16px;
+}
+
+.wide {
+    grid-column: span 2;
+}
+
+.blue {
+    background: #0078d7;
+}
+
+.purple {
+    background: #6b3fa0;
+}
+
+.orange {
+    background: #da6b18;
+}
+
+.green {
+    background: #168b55;
+}
+
+.red {
+    background: #c83232;
+}
+
+.teal {
+    background: #008c95;
+}
+
+.pink {
+    background: #b83c78;
+}
+
+.dark {
+    background: #35495e;
+}
+
+.tile:hover {
+    opacity: 0.8;
+}
+
+/* Горизонтальная прокрутка */
+body {
+    overflow-x: auto;
+}
